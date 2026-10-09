@@ -1,3 +1,3 @@
 # PIIA
-bonjour,test
+bonjour
 Python version: 3.13.0

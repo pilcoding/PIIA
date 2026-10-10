@@ -1,0 +1,29 @@
+{
+    "arch": "x86_64",
+    "build": "h653f8fd_1",
+    "build_number": 1,
+    "build_string": "h653f8fd_1",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "libidn2 >=2,<3.0a0",
+        "libunistring >=0,<1.0a0",
+        "libzlib >=1.3.1,<2.0a0",
+        "openssl >=3.5.5,<4.0a0",
+        "pcre2 >=10.47,<10.48.0a0",
+        "zlib"
+    ],
+    "fn": "wget-1.25.0-h653f8fd_1.conda",
+    "license": "GPL-3.0-or-later",
+    "md5": "3b97a15e7345c7f6c51bb57bffad7c93",
+    "name": "wget",
+    "platform": "linux",
+    "sha256": "66a5a05e0e44fd7a57e24d77665d5d6672646a7b316575b2f679108966d9124e",
+    "size": 746336,
+    "subdir": "linux-64",
+    "timestamp": 1772232737,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/wget-1.25.0-h653f8fd_1.conda",
+    "version": "1.25.0"
+}

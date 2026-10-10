@@ -1,0 +1,65 @@
+# This file created by conda-build 25.9.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Oct 13 19:56:40 2025
+# ------------------------------------------------
+
+package:
+  name: libidn2
+  version: 2.3.8
+source:
+  url: https://ftp.gnu.org/gnu/libidn/libidn2-2.3.8.tar.gz
+  sha256: f557911bf6171621e1f72ff35f5b1825bb35b52ed45325dcdee931e5d3c0787a
+build:
+  number: '1'
+  run_exports:
+    - libidn2 >=2,<3.0a0
+  string: hfac485b_1
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-64 2.44 hdf8817f_2
+    - binutils_linux-64 2.44 h4852527_2
+    - gcc_impl_linux-64 14.3.0 hd9e9e21_7
+    - gcc_linux-64 14.3.0 h298d278_12
+    - gnuconfig 2020.11.07 hd8ed1ab_0
+    - kernel-headers_linux-64 3.10.0 he073ed8_18
+    - ld_impl_linux-64 2.44 ha97dd6f_2
+    - libgcc 15.2.0 h767d61c_7
+    - libgcc-devel_linux-64 14.3.0 h85bb3a7_107
+    - libgcc-ng 15.2.0 h69a702a_7
+    - libgomp 15.2.0 h767d61c_7
+    - libsanitizer 14.3.0 hd08acf3_7
+    - libstdcxx 15.2.0 h8f9b012_7
+    - make 4.4.1 hb9d3cd8_2
+    - pkg-config 0.29.2 h4bc722e_1009
+    - sysroot_linux-64 2.17 h0157908_18
+    - tzdata 2025b h78e105d_0
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc 15.2.0 h767d61c_7
+    - libgcc-ng 15.2.0 h69a702a_7
+    - libgomp 15.2.0 h767d61c_7
+    - libunistring 0.9.10 h7f98852_0
+  run:
+    - __glibc >=2.17,<3.0.a0
+    - libgcc >=14
+    - libunistring >=0,<1.0a0
+test:
+  commands:
+    - test -f "${PREFIX}/include/idn2.h"
+    - test -f "${PREFIX}/lib/libidn2${SHLIB_EXT}"
+about:
+  home: https://www.gnu.org/software/libidn/#libidn2
+  license: LGPL-2.0-only
+  license_file: COPYING
+  summary: Library for internationalized domain names (IDNA2008) support
+extra:
+  recipe-maintainers:
+    - hmaarrfk
+  final: true
+  copy_test_source_files: true
+  flow_run_id: azure_20251013.3.1
+  remote_url: https://github.com/conda-forge/libidn2-feedstock
+  sha: 6bc03881332d1ce29abb23a6a52bc99e7ca933e6

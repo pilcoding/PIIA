@@ -1,0 +1,24 @@
+{
+    "arch": "x86_64",
+    "build": "hfac485b_1",
+    "build_number": 1,
+    "build_string": "hfac485b_1",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "libunistring >=0,<1.0a0"
+    ],
+    "fn": "libidn2-2.3.8-hfac485b_1.conda",
+    "license": "LGPL-2.0-only",
+    "md5": "842a81de672ddcf476337c8bde3cad33",
+    "name": "libidn2",
+    "platform": "linux",
+    "sha256": "cc38c900b9a20fe75e61cbb594e749c57a06d96510722f5ddfa309682062b065",
+    "size": 139036,
+    "subdir": "linux-64",
+    "timestamp": 1760385590,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libidn2-2.3.8-hfac485b_1.conda",
+    "version": "2.3.8"
+}

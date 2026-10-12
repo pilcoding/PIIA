@@ -10,4 +10,6 @@ Cela permet de spécifié le fichier qui va être commit
 
 Le texte MESSAGE est a remplacer par un message conpréhensible de tous pour comprendre la modification
 
-## Fusionner deux branches
+## Uploader son code sur le server
+
+> git push origin main

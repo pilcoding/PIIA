@@ -1,5 +1,8 @@
+from game import Game
+
 def main():
-    print("Welcome to Parkour 2027!")
+    game = Game()
+    game.run()
 
 if __name__ == "__main__":
     main()

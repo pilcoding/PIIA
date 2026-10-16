@@ -1,4 +1,4 @@
-from game import Game
+from parkour2027.game import Game
 
 def main():
     game = Game()

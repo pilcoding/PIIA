@@ -1,5 +1,6 @@
 import pygame 
-import utils
+
+import parkour2027.utils
 
 class Game:
     '''A class to represent the game.'''

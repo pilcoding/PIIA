@@ -1,6 +1,6 @@
 import pygame 
 
-import parkour2027.utils
+import couleurs
 
 class Game:
     '''A class to represent the game.'''
@@ -29,7 +29,7 @@ class Game:
 
     def draw(self):
         '''Draw the game screen.'''
-        self.screen.fill(utils.BLACK)
+        self.screen.fill(test.BLACK)
         pygame.display.flip()
 
     def handle_exit(self):

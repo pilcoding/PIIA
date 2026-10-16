@@ -1,7 +1,5 @@
 import pygame 
 
-import couleurs
-
 class Game:
     '''A class to represent the game.'''
 
@@ -29,7 +27,7 @@ class Game:
 
     def draw(self):
         '''Draw the game screen.'''
-        self.screen.fill(test.BLACK)
+        self.screen.fill((0, 0, 0))
         pygame.display.flip()
 
     def handle_exit(self):

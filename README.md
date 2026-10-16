@@ -1,7 +1,9 @@
-# PIIA
+# Parkour2027
 
 Python version: 3.13.0
 
-## Programmation
+## Dependencies
 
-LIRE LA DOCUMMENTATION GIT 
+Librairies:
+
+- PyGame
